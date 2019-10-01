@@ -60,7 +60,7 @@ function CreateBook(props) {
                                 <input type="text" placeholder="Describe this book" name="description" className="form-control" value={inputs.description} onChange={handleInputChange} />
                             </div>
                             <div className="form-group">
-                                <input type="date" placeholder="Published date" name="publishedDate" className="form-control" value={inputs.publishedDate} onChange={handleInputChange} />
+                                <input type="date" placeholder="Published date" name="published_date" className="form-control" value={inputs.publishedDate} onChange={handleInputChange} />
                             </div>
                             <div className="form-group">
                                 <input type="text" placeholder="Publisher of this Book" name="publisher" className="form-control" value={inputs.publisher} onChange={handleInputChange} />
